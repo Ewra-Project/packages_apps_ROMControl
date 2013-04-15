@@ -14,27 +14,101 @@
     <string name="toggles_layout">Переключатели</string>
     <string name="clock">Часы</string>
     <string name="battery">Батарея</string>
-    
+    <string name="nav_bar">Панель навигации</string>
+    <string name="tools">Инструменты</string>
+    <string name="weather">Погода</string>
+    <string name="signal">Вид уровней сигнала</string>
+
+    <string name="header_summary_battery">Бар батареи, вид батареи в %, др.</string>
+    <string name="header_summary_general_ui">Анимация загрузки, ориентация, иконка IME, др.</string>
+    <string name="header_summary_navigation_bar">Кнопки для отображения, цвет панели навигации, порядок</string>
+    <string name="header_summary_lockscreens">Пользовательские приложения для запуска, макеты</string>
+    <string name="header_summary_power_menu">Что отображать в меню выключения</string>
+    <string name="header_summary_powersaver">Автоматическое отключение данных для экономии заряда батареи</string>
+    <string name="header_summary_led">Изменение параметров по умолчанию для использования Android</string>
+    <string name="header_summary_general">Настройка поведения кнопок</string>
+    <string name="header_summary_toggles">Настройка переключателей</string>
+	<string name="header_summary_clock">Положение часов, стиль AM/PM, цвет</string>
+	<string name="header_summary_weather">Включение/выключение, установка пользовательского положения или сети, и интервалы</string>
+	<string name="header_summary_signal">Вид уровней сигнала dBm, текст</string>
+
     <string name="advanced_settings">Расширенные</string>
     <string name="misc_short">Общие</string>
-    
+
+    <!-- Menu Strings -->
+    <string name="menu_lockscreens_remove_wallpaper">Сброс обоев экрана блокировки</string>
+    <string name="menu_main_activity_change_locale">Действия</string>
+    <string name="menu_nav_bar_reset">Сброс панели навигации</string>
+    <string name="menu_weather_get_weather">Получение погоды</string>
+
+    <!-- General Strings -->
+    <string name="cancel">Отмена</string>
+    <string name="ok">Ок</string>
+
     <!-- Navigation Bar -->
     <string name="title_pref_menu_display">Настройки меню</string>
     <string name="summary_pref_menu_display">Позиции кнопок</string>
-    <string name="navigation_bar">Navigation bar</string>
-    <string name="navigation_bar_tint_title">Navigation bar tint</string>
+    <string name="navigation_bar">Панель навигации</string>
+    <string name="navigation_bar_tint_title">Цвет панели навигации</string>
+    <string name="navigation_bar_glow_tint_title">Цвет свечения панели навигации</string>
+    <string name="navigation_bar_glow_tint_summary">Когда вы нажимаете на кнопку, появляется свечение. Используйте это для изменения цвета свечения.</string>
+    <string name="navigation_bar_height_title">Высота панели навигации</string>
+    <string name="navigation_bar_width_title">Ширина панели навигации</string>
+
+    <string name="navigation_bar_add_new_widget_title">Добавить новый виджет</string>
+    <string name="navigation_bar_add_new_widget_summary">Нажмите чтобы добавить другой виджет</string>
+    <string name="navigation_bar_widget">"Виджет "</string>
 
     <string name="title_pref_navigation_menu_display">Положение кнопок меню</string>
     <string name="summary_pref_navigation_menu_display">Как ты хочешь расположить кнопки?</string>
 
-    <string name="navbar_order_title">Navigation button order</string>
+    <string name="navbar_order_title">Порядок кнопок навигации</string>
     <string name="navbar_order_summary">Настройте программные кнопки управления</string>
+
+    <string name="navbar_button_cat">Кнопки панели навигации</string>
+
+    <string name="navbar_qty_title">Количество кнопок навигации</string>
+    <string name="navbar_qty_summary">Выберите число кнопок навигации</string>
 
     <string name="enabled_navbar_buttons_title">Включить кнопки</string>
     <string name="enabled_navbar_buttons_summary">Включите, если хотите видеть программные кнопки управления</string>
 
+    <string name="navbar_action_title">Кнопка %1$s действия &amp; иконки</string>
+    <string name="navbar_longpress_title">Кнопка %1$s действия длительного нажатия</string>
+
+    <string name="navbar_action_home">Домой</string>
+    <string name="navbar_action_back">Назад</string>
+    <string name="navbar_action_recents">Последние</string>
+    <string name="navbar_action_search">Поиск</string>
+    <string name="navbar_action_menu">Меню</string>
+    <string name="navbar_action_kill">Убить задачу</string>
+    <string name="navbar_action_power">Выключение</string>
+    <string name="navbar_action_none">Пусто</string>
+
+	<string name="navbar_enable_bar">Включить бар</string>
+
+	<string name="navbar_widgets">Виджеты панели навигации</string>
+	<string name="navbar_widgets_reset">Сброс виджетов навигации</string>
+
+    <string name="navbar_enable_dialog_title">Требуется перезагрузка!</string>
+    <string name="navbar_enable_dialog_msg">Пожалуйста, перезагрузите чтобы включить/выключить панель навигации надлежащим образом!</string>
+    <string name="navbar_enable_dialog_negative">Перезагрузить позже</string>
+    <string name="navbar_enable_dialog_Positive">Перезагрузить сейчас!</string>
+
+    <string name="button_transparency_title">Прозрачность кнопок навигации</string>
+
     <string name="long_press_home_title">Долгое нажатие ДОМОЙ</string>
     <string name="long_press_home_summary">Что делать при долгом нажатии кнопки ДОМОЙ</string>
+
+    <string name="glow_times_title">Анимация свечения кнопок</string>
+    <string name="glow_times_off">Выкл.</string>
+    <string name="glow_times_superquick">Очень быстро</string>
+    <string name="glow_times_quick">Быстро</string>
+    <string name="glow_times_normal">Нормально</string>
+
+    <string name="combined_bar_title">Комбинированная панель</string>
+    <string name="combined_bar_auto_hide_title">Авто скрытие</string>
+    <string name="combined_bar_auto_hide_summary">Разрешить комбинированный бар, чтобы скрыть при показе полноэкранных приложених</string>
 
     <!-- UI -->
     <string name="rotation_animation_delay_title">Задержка поворота</string>
