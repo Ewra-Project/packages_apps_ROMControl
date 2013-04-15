@@ -141,7 +141,7 @@
 	</string-array>
 
 	<string-array name="led_entries">
-		<item>.5 seconds</item>
+		<item>0.5 seconds</item>
 		<item>1 second</item>
 		<item>1.5 seconds</item>
 		<item>2 seconds</item>
@@ -353,7 +353,7 @@
 		<item>8</item>
 	</string-array>
 
-        <string-array name="pref_lockscreen_options_entries">
+    <string-array name="pref_lockscreen_options_entries">
 		<item>Stock</item>
 		<item>AOSP</item>
 		<item>Honeycomb</item>
